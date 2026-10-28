@@ -1,0 +1,143 @@
+experiment,suite,condition,method,success_percent,n,reported_by_capx
+Method comparison,LIBERO-10,Original,OpenVLA,90,,False
+Method comparison,LIBERO-10,Original,π₀,82,,False
+Method comparison,LIBERO-10,Original,π₀.₅,92,,False
+Method comparison,LIBERO-10,Original,CaP-X (Gemini 3.1 Pro),10,,False
+Method comparison,LIBERO-10,Original,CaP-X (GPT-6),18,,False
+Method comparison,LIBERO-10,Original,CaP++,46,,False
+Method comparison,LIBERO-10,Original,DemoCaP,50,,False
+Method comparison,LIBERO-Object,Original,OpenVLA,98,,False
+Method comparison,LIBERO-Object,Original,π₀,94,,False
+Method comparison,LIBERO-Object,Original,π₀.₅,100,,False
+Method comparison,LIBERO-Object,Original,CaP-X (Gemini 3.1 Pro),26,,False
+Method comparison,LIBERO-Object,Original,CaP-X (GPT-6),24,,False
+Method comparison,LIBERO-Object,Original,CaP++,68,,False
+Method comparison,LIBERO-Object,Original,DemoCaP,74,,False
+Method comparison,LIBERO-Goal,Original,OpenVLA,94,,False
+Method comparison,LIBERO-Goal,Original,π₀,98,,False
+Method comparison,LIBERO-Goal,Original,π₀.₅,96,,False
+Method comparison,LIBERO-Goal,Original,CaP-X (Gemini 3.1 Pro),28,,False
+Method comparison,LIBERO-Goal,Original,CaP-X (GPT-6),24,,False
+Method comparison,LIBERO-Goal,Original,CaP++,56,,False
+Method comparison,LIBERO-Goal,Original,DemoCaP,66,,False
+Method comparison,LIBERO-Spatial,Original,OpenVLA,96,,False
+Method comparison,LIBERO-Spatial,Original,π₀,96,,False
+Method comparison,LIBERO-Spatial,Original,π₀.₅,98,,False
+Method comparison,LIBERO-Spatial,Original,CaP-X (Gemini 3.1 Pro),14,,False
+Method comparison,LIBERO-Spatial,Original,CaP-X (GPT-6),28,,False
+Method comparison,LIBERO-Spatial,Original,CaP++,68,,False
+Method comparison,LIBERO-Spatial,Original,DemoCaP,80,,False
+Method comparison,LIBERO-10,Position swap,OpenVLA,0,,False
+Method comparison,LIBERO-10,Position swap,π₀,0,,False
+Method comparison,LIBERO-10,Position swap,π₀.₅,10,,False
+Method comparison,LIBERO-10,Position swap,CaP-X (Gemini 3.1 Pro),8,,False
+Method comparison,LIBERO-10,Position swap,CaP-X (GPT-6),14,,False
+Method comparison,LIBERO-10,Position swap,CaP++,32,,False
+Method comparison,LIBERO-10,Position swap,DemoCaP,34,,False
+Method comparison,LIBERO-Object,Position swap,OpenVLA,0,,True
+Method comparison,LIBERO-Object,Position swap,π₀,0,,True
+Method comparison,LIBERO-Object,Position swap,π₀.₅,17,,True
+Method comparison,LIBERO-Object,Position swap,CaP-X (Gemini 3.1 Pro),22,,True
+Method comparison,LIBERO-Object,Position swap,CaP-X (GPT-6),26,,False
+Method comparison,LIBERO-Object,Position swap,CaP++,62,,False
+Method comparison,LIBERO-Object,Position swap,DemoCaP,66,,False
+Method comparison,LIBERO-Goal,Position swap,OpenVLA,0,,True
+Method comparison,LIBERO-Goal,Position swap,π₀,0,,True
+Method comparison,LIBERO-Goal,Position swap,π₀.₅,38,,True
+Method comparison,LIBERO-Goal,Position swap,CaP-X (Gemini 3.1 Pro),26,,True
+Method comparison,LIBERO-Goal,Position swap,CaP-X (GPT-6),20,,False
+Method comparison,LIBERO-Goal,Position swap,CaP++,42,,False
+Method comparison,LIBERO-Goal,Position swap,DemoCaP,54,,False
+Method comparison,LIBERO-Spatial,Position swap,OpenVLA,0,,True
+Method comparison,LIBERO-Spatial,Position swap,π₀,0,,True
+Method comparison,LIBERO-Spatial,Position swap,π₀.₅,20,,True
+Method comparison,LIBERO-Spatial,Position swap,CaP-X (Gemini 3.1 Pro),12,,True
+Method comparison,LIBERO-Spatial,Position swap,CaP-X (GPT-6),22,,False
+Method comparison,LIBERO-Spatial,Position swap,CaP++,62,,False
+Method comparison,LIBERO-Spatial,Position swap,DemoCaP,78,,False
+Method comparison,LIBERO-10,Task change,OpenVLA,0,,False
+Method comparison,LIBERO-10,Task change,π₀,2,,False
+Method comparison,LIBERO-10,Task change,π₀.₅,6,,False
+Method comparison,LIBERO-10,Task change,CaP-X (Gemini 3.1 Pro),0,,False
+Method comparison,LIBERO-10,Task change,CaP-X (GPT-6),10,,False
+Method comparison,LIBERO-10,Task change,CaP++,12,,False
+Method comparison,LIBERO-10,Task change,DemoCaP,8,,False
+Method comparison,LIBERO-Object,Task change,OpenVLA,0,,True
+Method comparison,LIBERO-Object,Task change,π₀,0,,True
+Method comparison,LIBERO-Object,Task change,π₀.₅,1,,True
+Method comparison,LIBERO-Object,Task change,CaP-X (Gemini 3.1 Pro),18,,True
+Method comparison,LIBERO-Object,Task change,CaP-X (GPT-6),18,,False
+Method comparison,LIBERO-Object,Task change,CaP++,70,,False
+Method comparison,LIBERO-Object,Task change,DemoCaP,74,,False
+Method comparison,LIBERO-Goal,Task change,OpenVLA,0,,True
+Method comparison,LIBERO-Goal,Task change,π₀,0,,True
+Method comparison,LIBERO-Goal,Task change,π₀.₅,0,,True
+Method comparison,LIBERO-Goal,Task change,CaP-X (Gemini 3.1 Pro),17,,True
+Method comparison,LIBERO-Goal,Task change,CaP-X (GPT-6),20,,False
+Method comparison,LIBERO-Goal,Task change,CaP++,30,,False
+Method comparison,LIBERO-Goal,Task change,DemoCaP,38,,False
+Method comparison,LIBERO-Spatial,Task change,OpenVLA,0,,True
+Method comparison,LIBERO-Spatial,Task change,π₀,0,,True
+Method comparison,LIBERO-Spatial,Task change,π₀.₅,1,,True
+Method comparison,LIBERO-Spatial,Task change,CaP-X (Gemini 3.1 Pro),14,,True
+Method comparison,LIBERO-Spatial,Task change,CaP-X (GPT-6),18,,False
+Method comparison,LIBERO-Spatial,Task change,CaP++,70,,False
+Method comparison,LIBERO-Spatial,Task change,DemoCaP,72,,False
+Generalization,LIBERO-10,Original,CaP++,46,50,False
+Generalization,LIBERO-10,Original,DemoCaP,50,50,False
+Generalization,LIBERO-10,Position swap,CaP++,28,100,False
+Generalization,LIBERO-10,Position swap,DemoCaP,36,100,False
+Generalization,LIBERO-10,Appearance,CaP++,19,100,False
+Generalization,LIBERO-10,Appearance,DemoCaP,27,100,False
+Generalization,LIBERO-10,Distractors,CaP++,43,90,False
+Generalization,LIBERO-10,Distractors,DemoCaP,42,90,False
+Generalization,LIBERO-10,Language,CaP++,42,50,False
+Generalization,LIBERO-10,Language,DemoCaP,46,50,False
+Generalization,LIBERO-10,Environment,CaP++,10,25,False
+Generalization,LIBERO-10,Environment,DemoCaP,12,25,False
+Generalization,LIBERO-Object,Original,CaP++,68,50,False
+Generalization,LIBERO-Object,Original,DemoCaP,74,50,False
+Generalization,LIBERO-Object,Position swap,CaP++,51,100,False
+Generalization,LIBERO-Object,Position swap,DemoCaP,64,100,False
+Generalization,LIBERO-Object,Position shift,CaP++,60,490,False
+Generalization,LIBERO-Object,Position shift,DemoCaP,67,490,False
+Generalization,LIBERO-Object,Appearance,CaP++,39,100,False
+Generalization,LIBERO-Object,Appearance,DemoCaP,56,100,False
+Generalization,LIBERO-Object,Distractors,CaP++,74,50,False
+Generalization,LIBERO-Object,Distractors,DemoCaP,78,50,False
+Generalization,LIBERO-Object,Language,CaP++,62,50,False
+Generalization,LIBERO-Object,Language,DemoCaP,66,50,False
+Generalization,LIBERO-Object,Environment,CaP++,48,50,False
+Generalization,LIBERO-Object,Environment,DemoCaP,64,50,False
+Generalization,LIBERO-Goal,Original,CaP++,56,50,False
+Generalization,LIBERO-Goal,Original,DemoCaP,66,50,False
+Generalization,LIBERO-Goal,Position swap,CaP++,50,100,False
+Generalization,LIBERO-Goal,Position swap,DemoCaP,45,100,False
+Generalization,LIBERO-Goal,Appearance,CaP++,48,100,False
+Generalization,LIBERO-Goal,Appearance,DemoCaP,51,100,False
+Generalization,LIBERO-Goal,Distractors,CaP++,52,75,False
+Generalization,LIBERO-Goal,Distractors,DemoCaP,60,75,False
+Generalization,LIBERO-Goal,Language,CaP++,70,50,False
+Generalization,LIBERO-Goal,Language,DemoCaP,70,50,False
+Generalization,LIBERO-Goal,Environment,CaP++,40,60,False
+Generalization,LIBERO-Goal,Environment,DemoCaP,40,60,False
+Generalization,LIBERO-Spatial,Original,CaP++,68,50,False
+Generalization,LIBERO-Spatial,Original,DemoCaP,80,50,False
+Generalization,LIBERO-Spatial,Position swap,CaP++,74,100,False
+Generalization,LIBERO-Spatial,Position swap,DemoCaP,79,100,False
+Generalization,LIBERO-Spatial,Appearance,CaP++,74,100,False
+Generalization,LIBERO-Spatial,Appearance,DemoCaP,79,100,False
+Generalization,LIBERO-Spatial,Distractors,CaP++,38,50,False
+Generalization,LIBERO-Spatial,Distractors,DemoCaP,54,50,False
+Generalization,LIBERO-Spatial,Language,CaP++,74,50,False
+Generalization,LIBERO-Spatial,Language,DemoCaP,78,50,False
+Generalization,LIBERO-Spatial,Environment,CaP++,80,100,False
+Generalization,LIBERO-Spatial,Environment,DemoCaP,82,100,False
+Direct-demo ablation,LIBERO-10,Original,DemoCaP,50,,False
+Direct-demo ablation,LIBERO-10,Original,Direct-DemoCaP,24,,False
+Direct-demo ablation,LIBERO-Object,Original,DemoCaP,74,,False
+Direct-demo ablation,LIBERO-Object,Original,Direct-DemoCaP,66,,False
+Direct-demo ablation,LIBERO-Goal,Original,DemoCaP,66,,False
+Direct-demo ablation,LIBERO-Goal,Original,Direct-DemoCaP,44,,False
+Direct-demo ablation,LIBERO-Spatial,Original,DemoCaP,80,,False
+Direct-demo ablation,LIBERO-Spatial,Original,Direct-DemoCaP,76,,False

@@ -1,0 +1,436 @@
+{
+  "suites": [
+    {
+      "id": "10",
+      "label": "LIBERO-10"
+    },
+    {
+      "id": "object",
+      "label": "LIBERO-Object"
+    },
+    {
+      "id": "goal",
+      "label": "LIBERO-Goal"
+    },
+    {
+      "id": "spatial",
+      "label": "LIBERO-Spatial"
+    }
+  ],
+  "method_comparison": {
+    "source_figure": "static/pdfs/method-comparison-source.pdf",
+    "source_table": "static/data/method-comparison-source.tex",
+    "conditions": [
+      {
+        "id": "original",
+        "label": "Original"
+      },
+      {
+        "id": "position-swap",
+        "label": "Position swap"
+      },
+      {
+        "id": "task-change",
+        "label": "Task change"
+      }
+    ],
+    "trial_note": "50 trials per task, as stated in the source table. Dagger-marked values are reported by CaP-X; other entries were evaluated in this work.",
+    "rows": [
+      {
+        "method": "OpenVLA",
+        "values": [
+          90,
+          0,
+          0,
+          98,
+          0,
+          0,
+          94,
+          0,
+          0,
+          96,
+          0,
+          0
+        ],
+        "reported_by_capx": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "method": "\u03c0\u2080",
+        "values": [
+          82,
+          0,
+          2,
+          94,
+          0,
+          0,
+          98,
+          0,
+          0,
+          96,
+          0,
+          0
+        ],
+        "reported_by_capx": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "method": "\u03c0\u2080.\u2085",
+        "values": [
+          92,
+          10,
+          6,
+          100,
+          17,
+          1,
+          96,
+          38,
+          0,
+          98,
+          20,
+          1
+        ],
+        "reported_by_capx": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "method": "CaP-X (Gemini 3.1 Pro)",
+        "values": [
+          10,
+          8,
+          0,
+          26,
+          22,
+          18,
+          28,
+          26,
+          17,
+          14,
+          12,
+          14
+        ],
+        "reported_by_capx": [
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true,
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "method": "CaP-X (GPT-6)",
+        "values": [
+          18,
+          14,
+          10,
+          24,
+          26,
+          18,
+          24,
+          20,
+          20,
+          28,
+          22,
+          18
+        ],
+        "reported_by_capx": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "method": "CaP++",
+        "values": [
+          46,
+          32,
+          12,
+          68,
+          62,
+          70,
+          56,
+          42,
+          30,
+          68,
+          62,
+          70
+        ],
+        "reported_by_capx": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "method": "DemoCaP",
+        "values": [
+          50,
+          34,
+          8,
+          74,
+          66,
+          74,
+          66,
+          54,
+          38,
+          80,
+          78,
+          72
+        ],
+        "reported_by_capx": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      }
+    ]
+  },
+  "generalization": {
+    "10": [
+      {
+        "condition": "Original",
+        "n": 50,
+        "cappp": 46,
+        "democap": 50
+      },
+      {
+        "condition": "Position swap",
+        "n": 100,
+        "cappp": 28,
+        "democap": 36
+      },
+      {
+        "condition": "Appearance",
+        "n": 100,
+        "cappp": 19,
+        "democap": 27
+      },
+      {
+        "condition": "Distractors",
+        "n": 90,
+        "cappp": 43,
+        "democap": 42
+      },
+      {
+        "condition": "Language",
+        "n": 50,
+        "cappp": 42,
+        "democap": 46
+      },
+      {
+        "condition": "Environment",
+        "n": 25,
+        "cappp": 10,
+        "democap": 12
+      }
+    ],
+    "object": [
+      {
+        "condition": "Original",
+        "n": 50,
+        "cappp": 68,
+        "democap": 74
+      },
+      {
+        "condition": "Position swap",
+        "n": 100,
+        "cappp": 51,
+        "democap": 64
+      },
+      {
+        "condition": "Position shift",
+        "n": 490,
+        "cappp": 60,
+        "democap": 67
+      },
+      {
+        "condition": "Appearance",
+        "n": 100,
+        "cappp": 39,
+        "democap": 56
+      },
+      {
+        "condition": "Distractors",
+        "n": 50,
+        "cappp": 74,
+        "democap": 78
+      },
+      {
+        "condition": "Language",
+        "n": 50,
+        "cappp": 62,
+        "democap": 66
+      },
+      {
+        "condition": "Environment",
+        "n": 50,
+        "cappp": 48,
+        "democap": 64
+      }
+    ],
+    "goal": [
+      {
+        "condition": "Original",
+        "n": 50,
+        "cappp": 56,
+        "democap": 66
+      },
+      {
+        "condition": "Position swap",
+        "n": 100,
+        "cappp": 50,
+        "democap": 45
+      },
+      {
+        "condition": "Appearance",
+        "n": 100,
+        "cappp": 48,
+        "democap": 51
+      },
+      {
+        "condition": "Distractors",
+        "n": 75,
+        "cappp": 52,
+        "democap": 60
+      },
+      {
+        "condition": "Language",
+        "n": 50,
+        "cappp": 70,
+        "democap": 70
+      },
+      {
+        "condition": "Environment",
+        "n": 60,
+        "cappp": 40,
+        "democap": 40
+      }
+    ],
+    "spatial": [
+      {
+        "condition": "Original",
+        "n": 50,
+        "cappp": 68,
+        "democap": 80
+      },
+      {
+        "condition": "Position swap",
+        "n": 100,
+        "cappp": 74,
+        "democap": 79
+      },
+      {
+        "condition": "Appearance",
+        "n": 100,
+        "cappp": 74,
+        "democap": 79
+      },
+      {
+        "condition": "Distractors",
+        "n": 50,
+        "cappp": 38,
+        "democap": 54
+      },
+      {
+        "condition": "Language",
+        "n": 50,
+        "cappp": 74,
+        "democap": 78
+      },
+      {
+        "condition": "Environment",
+        "n": 100,
+        "cappp": 80,
+        "democap": 82
+      }
+    ]
+  },
+  "generalization_source": "static/pdfs/generalization-source.pdf",
+  "generalization_note": "Values and n labels reproduced from fig2_generalization (4).pdf. This experiment is kept separate from the method-comparison table; their position-swap values and sample counts differ.",
+  "direct_demo_ablation": {
+    "democap": [
+      50,
+      74,
+      66,
+      80
+    ],
+    "direct_democap": [
+      24,
+      66,
+      44,
+      76
+    ],
+    "source": "static/pdfs/direct-demo-ablation-source.pdf",
+    "condition": "Original tasks only; Direct-DemoCaP conditions on 16 sampled demonstration frames."
+  }
+}

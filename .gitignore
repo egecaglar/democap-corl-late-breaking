@@ -1,0 +1,12 @@
+# Private editing and experiment review workspaces.
+/text-editor/
+/video-review/
+
+# Generated deployment bundle and Python cache.
+/_site/
+__pycache__/
+*.pyc
+
+# Local experiment metadata, not website content.
+/static/data/videos.json
+/static/data/mechanism-examples.json

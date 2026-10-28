@@ -1,520 +1,58 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
-  <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
-
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
-
-  <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
-  <!-- Additional SEO -->
-  <meta name="theme-color" content="#2563eb">
-  <meta name="msapplication-TileColor" content="#2563eb">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
-  <!-- Preconnect for performance -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://ajax.googleapis.com">
-  <link rel="preconnect" href="https://documentcloud.adobe.com">
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
-
-
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
-  <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
-  <!-- Critical CSS - Load synchronously -->
-  <link rel="stylesheet" href="static/css/bulma.min.css">
-  <link rel="stylesheet" href="static/css/index.css">
-  
-  <!-- Non-critical CSS - Load asynchronously -->
-  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
-  <!-- Fallback for browsers that don't support preload -->
-  <noscript>
-    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
-    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
-    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  </noscript>
-  
-  <!-- Fonts - Optimized loading -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Defer non-critical JavaScript -->
-  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-  <script defer src="static/js/fontawesome.all.min.js"></script>
-  <script defer src="static/js/bulma-carousel.min.js"></script>
-  <script defer src="static/js/bulma-slider.min.js"></script>
-  <script defer src="static/js/index.js"></script>
-  
-  <!-- Structured Data for Academic Papers -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
-    "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
-    ],
-    "datePublished": "2024-01-01",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
-    },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
-    "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Website/Organization Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
-  }
-  </script>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>DemoCaP · One-Shot Learning from Demonstrations with Code-as-Policy Generation</title>
+<meta content="DemoCaP uses one teleoperated demonstration to improve executable robot programs. Method, LIBERO results, and paired CaP++ comparisons." name="description"/>
+<meta content="#b64b08" name="theme-color"/>
+<link href="static/css/index.css" rel="stylesheet"/><script defer="" src="static/js/index.js"></script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="#">Demo<span>CaP</span></a><nav aria-label="Page sections"><a href="#abstract">Abstract</a><a href="#method">Method</a><a href="#results">Results</a><a href="#videos">Videos</a></nav></header>
+<main id="main">
+<section class="hero wrap">
+<p class="eyebrow">CoRL 2026 · Late-Breaking Submission</p>
+<h1><span class="project-name">Demo<span>CaP</span></span><span class="paper-title">One-Shot Learning from Demonstrations<br class="desktop-break"/> with Code-as-Policy Generation</span></h1>
+<p class="authors">Ege Caglar <span>and</span> Maya Cakmak</p>
+<p class="affiliation">University of Washington, Seattle</p>
+<div class="resources"><a class="button primary" href="static/pdfs/democap-corl-2026.pdf" rel="noopener" target="_blank"><span aria-hidden="true">↗</span> Read the paper</a><a class="button" href="#videos"><span aria-hidden="true">▷</span> Explore the rollouts</a></div>
+</section>
+<section class="section abstract-section" id="abstract"><div class="reading"><h2>Abstract</h2><p class="abstract-text">Code-as-Policy (CaP) uses large language models to synthesize executable robot programs from language, but instructions often omit the geometric and procedural details needed for manipulation. We study whether one successful teleoperated demonstration can improve a language-only CaP agent without task-specific policy training. Our method, DemoCaP, identifies object interactions and extracts object-relative motion and spatial context from the demonstration, then uses it to improve code generation at test-time. We compare this method to CaP++, a language-only baseline we build based on CaP-X. Across the 12 conditions, DemoCaP achieves 57.8% mean success compared with 51.5% for CaP++. The gains persist under changes to object positions and task specifications, suggesting that a single demonstration can help close the specification gap while preserving the inspectability and editability of code-based policies.</p></div></section>
+<section class="section wrap" id="method"><div class="section-heading"><div><h2>Method</h2></div></div>
+<figure class="method-figure"><img alt="DemoCaP method: a successful demonstration is parsed into object interactions, object-relative motion, geometry, and spatial relations. This context and the observed state of a new task are used to generate an executable Python policy." height="360" loading="lazy" src="static/images/method.svg" width="1120"/><figcaption>DemoCaP conditions program generation on a successful demonstration, parsed into explicit object locations and interactions for better understanding.
+</figcaption></figure>
+<div class="method-details"><article><h3>1. Parse the demonstration</h3><p>Demo-CaP takes in a demonstration and generates a JSON containing object locations, spatial relationships between objects, timed contact points and movement paths.</p></article><article><h3>2. Ground in the new scene</h3><p>When a new configuration of the task is encountered, the system uses API calls to inspect the previous JSON, and create an adapted program for the new task.</p></article><article><h3>3. Generate and execute code</h3><p>The program is tested zero-shot on the environment. No task-specific policy training or trial-and-error is required. The code-as-policy contains what has been taken from the demonstration and what is adapted to the new task, explicitly.</p></article></div>
 
+</section>
+<section class="section results-section" id="results"><div class="wrap results-wrap"><div class="section-heading"><div><h2>Results on LIBERO and LIBERO-PRO</h2></div></div>
+<div class="stats"><div><strong>57.8<span>%</span></strong><p>DemoCaP mean across 12 method-comparison conditions</p></div><div><strong class="baseline-stat">51.5<span>%</span></strong><p>CaP++ mean across the same 12 conditions</p></div><div><strong>11<span>/12</span></strong><p>Conditions where DemoCaP exceeds CaP++</p></div></div>
+<div class="chart-section" id="method-comparison"><div class="chart-section-heading"><h3>Method comparison</h3><a href="static/pdfs/method-comparison-source.pdf">Source figure ↗</a></div><p class="chart-description">We tested 7 methods across four LIBERO suites, evaluated on original scenes, position swaps, and task changes. All results use 50 trials per task, context is not preserved between trials, and one demonstration per task is used for DemoCaP.</p>
+<div aria-label="Method comparison condition" class="chart-filters" role="group"><button aria-pressed="true" data-result-filter="all" type="button">All conditions</button><button aria-pressed="false" data-result-filter="original" type="button">Original</button><button aria-pressed="false" data-result-filter="position-swap" type="button">Position swap</button><button aria-pressed="false" data-result-filter="task-change" type="button">Task change</button></div>
+<div class="chart-condition-group" data-result-condition="original"><h4 class="condition-title">Original</h4><div class="plot-grid"><figure class="results-plot"><h4>LIBERO-10</h4><div class="plot-scroll"><img alt="LIBERO-10, Original. Success rate (%): OpenVLA 90, π₀ 82, π₀.₅ 92, CaP-X (Gemini 3.1 Pro) 10, CaP-X (GPT-6) 18, CaP++ 46, DemoCaP 50." loading="lazy" src="static/plots/method-original-10.svg"/></div><figcaption><a download="" href="static/plots/method-original-10.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Object</h4><div class="plot-scroll"><img alt="LIBERO-Object, Original. Success rate (%): OpenVLA 98, π₀ 94, π₀.₅ 100, CaP-X (Gemini 3.1 Pro) 26, CaP-X (GPT-6) 24, CaP++ 68, DemoCaP 74." loading="lazy" src="static/plots/method-original-object.svg"/></div><figcaption><a download="" href="static/plots/method-original-object.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Goal</h4><div class="plot-scroll"><img alt="LIBERO-Goal, Original. Success rate (%): OpenVLA 94, π₀ 98, π₀.₅ 96, CaP-X (Gemini 3.1 Pro) 28, CaP-X (GPT-6) 24, CaP++ 56, DemoCaP 66." loading="lazy" src="static/plots/method-original-goal.svg"/></div><figcaption><a download="" href="static/plots/method-original-goal.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Spatial</h4><div class="plot-scroll"><img alt="LIBERO-Spatial, Original. Success rate (%): OpenVLA 96, π₀ 96, π₀.₅ 98, CaP-X (Gemini 3.1 Pro) 14, CaP-X (GPT-6) 28, CaP++ 68, DemoCaP 80." loading="lazy" src="static/plots/method-original-spatial.svg"/></div><figcaption><a download="" href="static/plots/method-original-spatial.svg">Download SVG</a></figcaption></figure></div></div><div class="chart-condition-group" data-result-condition="position-swap"><h4 class="condition-title">Position swap</h4><div class="plot-grid"><figure class="results-plot"><h4>LIBERO-10</h4><div class="plot-scroll"><img alt="LIBERO-10, Position swap. Success rate (%): OpenVLA 0, π₀ 0, π₀.₅ 10, CaP-X (Gemini 3.1 Pro) 8, CaP-X (GPT-6) 14, CaP++ 32, DemoCaP 34." loading="lazy" src="static/plots/method-position-swap-10.svg"/></div><figcaption><a download="" href="static/plots/method-position-swap-10.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Object</h4><div class="plot-scroll"><img alt="LIBERO-Object, Position swap. Success rate (%): OpenVLA 0, π₀ 0, π₀.₅ 17, CaP-X (Gemini 3.1 Pro) 22, CaP-X (GPT-6) 26, CaP++ 62, DemoCaP 66." loading="lazy" src="static/plots/method-position-swap-object.svg"/></div><figcaption><a download="" href="static/plots/method-position-swap-object.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Goal</h4><div class="plot-scroll"><img alt="LIBERO-Goal, Position swap. Success rate (%): OpenVLA 0, π₀ 0, π₀.₅ 38, CaP-X (Gemini 3.1 Pro) 26, CaP-X (GPT-6) 20, CaP++ 42, DemoCaP 54." loading="lazy" src="static/plots/method-position-swap-goal.svg"/></div><figcaption><a download="" href="static/plots/method-position-swap-goal.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Spatial</h4><div class="plot-scroll"><img alt="LIBERO-Spatial, Position swap. Success rate (%): OpenVLA 0, π₀ 0, π₀.₅ 20, CaP-X (Gemini 3.1 Pro) 12, CaP-X (GPT-6) 22, CaP++ 62, DemoCaP 78." loading="lazy" src="static/plots/method-position-swap-spatial.svg"/></div><figcaption><a download="" href="static/plots/method-position-swap-spatial.svg">Download SVG</a></figcaption></figure></div></div><div class="chart-condition-group" data-result-condition="task-change"><h4 class="condition-title">Task change</h4><div class="plot-grid"><figure class="results-plot"><h4>LIBERO-10</h4><div class="plot-scroll"><img alt="LIBERO-10, Task change. Success rate (%): OpenVLA 0, π₀ 2, π₀.₅ 6, CaP-X (Gemini 3.1 Pro) 0, CaP-X (GPT-6) 10, CaP++ 12, DemoCaP 8." loading="lazy" src="static/plots/method-task-change-10.svg"/></div><figcaption><a download="" href="static/plots/method-task-change-10.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Object</h4><div class="plot-scroll"><img alt="LIBERO-Object, Task change. Success rate (%): OpenVLA 0, π₀ 0, π₀.₅ 1, CaP-X (Gemini 3.1 Pro) 18, CaP-X (GPT-6) 18, CaP++ 70, DemoCaP 74." loading="lazy" src="static/plots/method-task-change-object.svg"/></div><figcaption><a download="" href="static/plots/method-task-change-object.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Goal</h4><div class="plot-scroll"><img alt="LIBERO-Goal, Task change. Success rate (%): OpenVLA 0, π₀ 0, π₀.₅ 0, CaP-X (Gemini 3.1 Pro) 17, CaP-X (GPT-6) 20, CaP++ 30, DemoCaP 38." loading="lazy" src="static/plots/method-task-change-goal.svg"/></div><figcaption><a download="" href="static/plots/method-task-change-goal.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Spatial</h4><div class="plot-scroll"><img alt="LIBERO-Spatial, Task change. Success rate (%): OpenVLA 0, π₀ 0, π₀.₅ 1, CaP-X (Gemini 3.1 Pro) 14, CaP-X (GPT-6) 18, CaP++ 70, DemoCaP 72." loading="lazy" src="static/plots/method-task-change-spatial.svg"/></div><figcaption><a download="" href="static/plots/method-task-change-spatial.svg">Download SVG</a></figcaption></figure></div></div>
+<p class="caption">† Values reported by CaP-X; unmarked values were evaluated in this work. DemoCaP is highlighted in orange.</p><details class="chart-data"><summary>Method-comparison data table</summary><div class="table-scroll"><table><caption>Success rate (%). O = Original; PS = Position swap; TC = Task change. † Reported by CaP-X.</caption><thead><tr><th rowspan="2" scope="col">Method</th><th colspan="3" scope="colgroup">LIBERO-10</th><th colspan="3" scope="colgroup">LIBERO-Object</th><th colspan="3" scope="colgroup">LIBERO-Goal</th><th colspan="3" scope="colgroup">LIBERO-Spatial</th></tr><tr><th scope="col">O</th><th scope="col">PS</th><th scope="col">TC</th><th scope="col">O</th><th scope="col">PS</th><th scope="col">TC</th><th scope="col">O</th><th scope="col">PS</th><th scope="col">TC</th><th scope="col">O</th><th scope="col">PS</th><th scope="col">TC</th></tr></thead><tbody><tr><th scope="row">OpenVLA</th><td>90</td><td>0</td><td>0</td><td>98</td><td>0†</td><td>0†</td><td>94</td><td>0†</td><td>0†</td><td>96</td><td>0†</td><td>0†</td></tr><tr><th scope="row">π₀</th><td>82</td><td>0</td><td>2</td><td>94</td><td>0†</td><td>0†</td><td>98</td><td>0†</td><td>0†</td><td>96</td><td>0†</td><td>0†</td></tr><tr><th scope="row">π₀.₅</th><td>92</td><td>10</td><td>6</td><td>100</td><td>17†</td><td>1†</td><td>96</td><td>38†</td><td>0†</td><td>98</td><td>20†</td><td>1†</td></tr><tr><th scope="row">CaP-X (Gemini 3.1 Pro)</th><td>10</td><td>8</td><td>0</td><td>26</td><td>22†</td><td>18†</td><td>28</td><td>26†</td><td>17†</td><td>14</td><td>12†</td><td>14†</td></tr><tr><th scope="row">CaP-X (GPT-6)</th><td>18</td><td>14</td><td>10</td><td>24</td><td>26</td><td>18</td><td>24</td><td>20</td><td>20</td><td>28</td><td>22</td><td>18</td></tr><tr><th scope="row">CaP++</th><td>46</td><td>32</td><td>12</td><td>68</td><td>62</td><td>70</td><td>56</td><td>42</td><td>30</td><td>68</td><td>62</td><td>70</td></tr><tr><th scope="row">DemoCaP</th><td>50</td><td>34</td><td>8</td><td>74</td><td>66</td><td>74</td><td>66</td><td>54</td><td>38</td><td>80</td><td>78</td><td>72</td></tr></tbody></table></div><p class="caption"><a download="" href="static/data/method-comparison-source.tex">Original LaTeX table</a></p></details></div>
+<div class="chart-section" id="generalization-results"><div class="chart-section-heading"><h3>Generalization on LIBERO-PRO</h3><a href="static/pdfs/generalization-source.pdf">Source figure ↗</a></div><p class="chart-description">We compared CaP++ and DemoCaP under position, appearance, distractor, language, and environment changes from LIBERO-PRO. Position shift is provided for LIBERO-Object only. Sample counts (n) are shown for every condition.</p>
+<div class="plot-grid"><figure class="results-plot"><h4>LIBERO-10</h4><div class="plot-scroll"><img alt="LIBERO-10 generalization. Success rates (%), CaP++ / DemoCaP: Original (n=50): 46 / 50; Position swap (n=100): 28 / 36; Appearance (n=100): 19 / 27; Distractors (n=90): 43 / 42; Language (n=50): 42 / 46; Environment (n=25): 10 / 12." loading="lazy" src="static/plots/generalization-10.svg"/></div><figcaption><a download="" href="static/plots/generalization-10.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Object</h4><div class="plot-scroll"><img alt="LIBERO-Object generalization. Success rates (%), CaP++ / DemoCaP: Original (n=50): 68 / 74; Position swap (n=100): 51 / 64; Position shift (n=490): 60 / 67; Appearance (n=100): 39 / 56; Distractors (n=50): 74 / 78; Language (n=50): 62 / 66; Environment (n=50): 48 / 64." loading="lazy" src="static/plots/generalization-object.svg"/></div><figcaption><a download="" href="static/plots/generalization-object.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Goal</h4><div class="plot-scroll"><img alt="LIBERO-Goal generalization. Success rates (%), CaP++ / DemoCaP: Original (n=50): 56 / 66; Position swap (n=100): 50 / 45; Appearance (n=100): 48 / 51; Distractors (n=75): 52 / 60; Language (n=50): 70 / 70; Environment (n=60): 40 / 40." loading="lazy" src="static/plots/generalization-goal.svg"/></div><figcaption><a download="" href="static/plots/generalization-goal.svg">Download SVG</a></figcaption></figure><figure class="results-plot"><h4>LIBERO-Spatial</h4><div class="plot-scroll"><img alt="LIBERO-Spatial generalization. Success rates (%), CaP++ / DemoCaP: Original (n=50): 68 / 80; Position swap (n=100): 74 / 79; Appearance (n=100): 74 / 79; Distractors (n=50): 38 / 54; Language (n=50): 74 / 78; Environment (n=100): 80 / 82." loading="lazy" src="static/plots/generalization-spatial.svg"/></div><figcaption><a download="" href="static/plots/generalization-spatial.svg">Download SVG</a></figcaption></figure></div>
 
-  <!-- Scroll to Top Button -->
-  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
-    <i class="fas fa-chevron-up"></i>
-  </button>
+<details class="chart-data"><summary>Generalization data table</summary><div class="table-scroll"><table><caption>Success rate (%) and n labels from the source figure.</caption><thead><tr><th scope="col">Suite</th><th scope="col">Condition</th><th scope="col">n</th><th scope="col">CaP++</th><th scope="col">DemoCaP</th></tr></thead><tbody><tr><th scope="row">LIBERO-10</th><td>Original</td><td>50</td><td>46</td><td>50</td></tr><tr><th scope="row">LIBERO-10</th><td>Position swap</td><td>100</td><td>28</td><td>36</td></tr><tr><th scope="row">LIBERO-10</th><td>Appearance</td><td>100</td><td>19</td><td>27</td></tr><tr><th scope="row">LIBERO-10</th><td>Distractors</td><td>90</td><td>43</td><td>42</td></tr><tr><th scope="row">LIBERO-10</th><td>Language</td><td>50</td><td>42</td><td>46</td></tr><tr><th scope="row">LIBERO-10</th><td>Environment</td><td>25</td><td>10</td><td>12</td></tr><tr><th scope="row">LIBERO-Object</th><td>Original</td><td>50</td><td>68</td><td>74</td></tr><tr><th scope="row">LIBERO-Object</th><td>Position swap</td><td>100</td><td>51</td><td>64</td></tr><tr><th scope="row">LIBERO-Object</th><td>Position shift</td><td>490</td><td>60</td><td>67</td></tr><tr><th scope="row">LIBERO-Object</th><td>Appearance</td><td>100</td><td>39</td><td>56</td></tr><tr><th scope="row">LIBERO-Object</th><td>Distractors</td><td>50</td><td>74</td><td>78</td></tr><tr><th scope="row">LIBERO-Object</th><td>Language</td><td>50</td><td>62</td><td>66</td></tr><tr><th scope="row">LIBERO-Object</th><td>Environment</td><td>50</td><td>48</td><td>64</td></tr><tr><th scope="row">LIBERO-Goal</th><td>Original</td><td>50</td><td>56</td><td>66</td></tr><tr><th scope="row">LIBERO-Goal</th><td>Position swap</td><td>100</td><td>50</td><td>45</td></tr><tr><th scope="row">LIBERO-Goal</th><td>Appearance</td><td>100</td><td>48</td><td>51</td></tr><tr><th scope="row">LIBERO-Goal</th><td>Distractors</td><td>75</td><td>52</td><td>60</td></tr><tr><th scope="row">LIBERO-Goal</th><td>Language</td><td>50</td><td>70</td><td>70</td></tr><tr><th scope="row">LIBERO-Goal</th><td>Environment</td><td>60</td><td>40</td><td>40</td></tr><tr><th scope="row">LIBERO-Spatial</th><td>Original</td><td>50</td><td>68</td><td>80</td></tr><tr><th scope="row">LIBERO-Spatial</th><td>Position swap</td><td>100</td><td>74</td><td>79</td></tr><tr><th scope="row">LIBERO-Spatial</th><td>Appearance</td><td>100</td><td>74</td><td>79</td></tr><tr><th scope="row">LIBERO-Spatial</th><td>Distractors</td><td>50</td><td>38</td><td>54</td></tr><tr><th scope="row">LIBERO-Spatial</th><td>Language</td><td>50</td><td>74</td><td>78</td></tr><tr><th scope="row">LIBERO-Spatial</th><td>Environment</td><td>100</td><td>80</td><td>82</td></tr></tbody></table></div></details></div>
+<div class="chart-section" id="direct-demo-ablation"><div class="chart-section-heading"><h3>Direct-Demo Ablation</h3><a href="static/pdfs/direct-demo-ablation-source.pdf">Source figure ↗</a></div><p class="chart-description">DemoCaP’s structured demonstration conditioning compared with Direct-DemoCaP, which receives 16 sampled demonstration frames as context. Results are for original tasks in the four LIBERO suites.</p>
+<figure class="results-plot"><h4>DemoCaP and Direct-DemoCaP</h4><div class="plot-scroll"><img alt="Original LIBERO tasks. Success rates (%), DemoCaP / Direct-DemoCaP: LIBERO-10: 50 / 24; LIBERO-Object: 74 / 66; LIBERO-Goal: 66 / 44; LIBERO-Spatial: 80 / 76." loading="lazy" src="static/plots/direct-demo-ablation.svg"/></div><figcaption><a download="" href="static/plots/direct-demo-ablation.svg">Download SVG</a></figcaption></figure>
+</div><div class="chart-downloads"><a download="" href="static/plots/democap-results.pdf">Download all charts (PDF)</a><a download="" href="static/data/results.csv">Download all values (CSV)</a><a href="static/data/results.json">Data and source notes (JSON)</a></div>
+</div></section>
+<section class="section wrap" id="videos"><div class="section-heading"><div><h2>Why does DemoCaP perform better than CaP++?</h2></div><p>We show three paired examples in two panels to illustrate why a demonstration helps the coding agent understand the task better. Each pair uses the same task and seed, where CaP++ fails the task and DemoCaP succeeds.</p></div>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
+<article class="comparison mechanism-example" data-comparison="009_libero_goal_t05_s06" data-example-id="009_libero_goal_t05_s06">
+<div class="comparison-header"><div><p class="eyebrow">LIBERO-Goal · Task 05 · Seed 06</p><h3>Better planning based on robot constraints</h3></div><span class="tag">Reference-object grounding</span></div>
+<p class="instruction"><span>Instruction</span> <q>Push the plate to the front of the stove</q></p>
+<div class="paired-videos"><figure data-method="cappp"><figcaption><span><i class="cap-dot"></i> CaP++ <small>Language only</small></span><span class="outcome failure">Failure</span></figcaption><video aria-label="CaP++: Push the plate to the front of the stove, seed 06" controls="" muted="" playsinline="" poster="static/images/009_libero_goal_t05_s06-cappp.jpg" preload="none"><source src="static/videos/009_libero_goal_t05_s06-cappp.mp4" type="video/mp4"/>Your browser does not support embedded video. <a href="static/videos/009_libero_goal_t05_s06-cappp.mp4">Download the video</a>.</video><p class="behavior-note">A naive coding agent tries to push the plate further out, and its large end-effector hits the cabinet nearby.</p></figure><figure data-method="democap"><figcaption><span><i class="demo-dot"></i> DemoCaP <small>+ One demonstration</small></span><span class="outcome success">Success</span></figcaption><video aria-label="DemoCaP: Push the plate to the front of the stove, seed 06" controls="" muted="" playsinline="" poster="static/images/009_libero_goal_t05_s06-democap.jpg" preload="none"><source src="static/videos/009_libero_goal_t05_s06-democap.mp4" type="video/mp4"/>Your browser does not support embedded video. <a href="static/videos/009_libero_goal_t05_s06-democap.mp4">Download the video</a>.</video><p class="behavior-note">The coding agent reuses the strategy shown in the demonstration, and  directly pushes the plate toward the burner, correctly displacing the cream cheese box in the process.</p></figure></div>
+<p class="mechanism-note">A teleoperated demonstration can provide planning constraints not thought of by the model initially. In this case, the large end-effector and the workspace of the robot makes going around the cream cheese impractical and unlikely to succeed. Hence, the direct strategy is provided, which increases the chances for success.</p>
+<div class="comparison-controls"><button class="play-pair" type="button">▷ Play both from start</button><button class="pause-pair" type="button">Pause both</button><label class="speed-label">Speed <select aria-label="Playback speed for Push toward the correct reference" class="pair-speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><span>Each rollout retains its recorded duration.</span></div>
+<p aria-live="polite" class="pair-status" role="status"></p></article>
+<article class="comparison mechanism-example identity-comparison" data-example-group="object-identification"><div class="comparison-header"><div><h3>Object identification</h3></div><span class="tag">Object identity</span></div><div aria-label="Object identification example" class="identity-tabs" role="tablist"><button aria-controls="identity-panel-ketchup" aria-selected="true" data-identity-tab="ketchup" id="identity-tab-ketchup" role="tab" tabindex="0" type="button">Ketchup</button><button aria-controls="identity-panel-salad" aria-selected="false" data-identity-tab="salad" id="identity-tab-salad" role="tab" tabindex="-1" type="button">Salad dressing</button></div><div aria-labelledby="identity-tab-ketchup" class="identity-example" data-comparison="015_libero_object_t04_s01" data-example-id="015_libero_object_t04_s01" data-identity-panel="ketchup" id="identity-panel-ketchup" role="tabpanel"><p class="eyebrow">LIBERO-Object · Task 04 · Seed 01</p><p class="instruction"><span>Instruction</span> <q>Pick the ketchup and place it in the basket</q></p><div class="paired-videos"><figure data-method="cappp"><figcaption><span><i class="cap-dot"></i> CaP++ <small>Language only</small></span><span class="outcome failure">Failure</span></figcaption><video aria-label="CaP++: Pick the ketchup and place it in the basket, seed 01" controls="" muted="" playsinline="" poster="static/images/015_libero_object_t04_s01-cappp.jpg" preload="none"><source src="static/videos/015_libero_object_t04_s01-cappp.mp4" type="video/mp4"/>Your browser does not support embedded video. <a href="static/videos/015_libero_object_t04_s01-cappp.mp4">Download the video</a>.</video><p class="behavior-note">A different bottle, that also looks like ketchup but isn't, is placed onto the basket.</p></figure><figure data-method="democap"><figcaption><span><i class="demo-dot"></i> DemoCaP <small>+ One demonstration</small></span><span class="outcome success">Success</span></figcaption><video aria-label="DemoCaP: Pick the ketchup and place it in the basket, seed 01" controls="" muted="" playsinline="" poster="static/images/015_libero_object_t04_s01-democap.jpg" preload="none"><source src="static/videos/015_libero_object_t04_s01-democap.mp4" type="video/mp4"/>Your browser does not support embedded video. <a href="static/videos/015_libero_object_t04_s01-democap.mp4">Download the video</a>.</video><p class="behavior-note">The demonstrated object is matched to the ketchup bottle, which is placed in the basket.</p></figure></div><div class="comparison-controls"><button class="play-pair" type="button">▷ Play both from start</button><button class="pause-pair" type="button">Pause both</button><label class="speed-label">Speed <select aria-label="Playback speed for Pick the ketchup bottle" class="pair-speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><span>Each rollout retains its recorded duration.</span></div><p aria-live="polite" class="pair-status" role="status"></p></div><div aria-labelledby="identity-tab-salad" class="identity-example" data-comparison="012_libero_object_t02_s03" data-example-id="012_libero_object_t02_s03" data-identity-panel="salad" hidden="" id="identity-panel-salad" role="tabpanel"><p class="eyebrow">LIBERO-Object · Task 02 · Seed 03</p><p class="instruction"><span>Instruction</span> <q>Pick the salad dressing and place it in the basket</q></p><div class="paired-videos"><figure data-method="cappp"><figcaption><span><i class="cap-dot"></i> CaP++ <small>Language only</small></span><span class="outcome failure">Failure</span></figcaption><video aria-label="CaP++: Pick the salad dressing and place it in the basket, seed 03" controls="" muted="" playsinline="" poster="static/images/012_libero_object_t02_s03-cappp.jpg" preload="none"><source src="static/videos/012_libero_object_t02_s03-cappp.mp4" type="video/mp4"/>Your browser does not support embedded video. <a href="static/videos/012_libero_object_t02_s03-cappp.mp4">Download the video</a>.</video><p class="behavior-note">A ketchup bottle that has a similar shape to the salad-dressing bottle is picked up.</p></figure><figure data-method="democap"><figcaption><span><i class="demo-dot"></i> DemoCaP <small>+ One demonstration</small></span><span class="outcome success">Success</span></figcaption><video aria-label="DemoCaP: Pick the salad dressing and place it in the basket, seed 03" controls="" muted="" playsinline="" poster="static/images/012_libero_object_t02_s03-democap.jpg" preload="none"><source src="static/videos/012_libero_object_t02_s03-democap.mp4" type="video/mp4"/>Your browser does not support embedded video. <a href="static/videos/012_libero_object_t02_s03-democap.mp4">Download the video</a>.</video><p class="behavior-note">The selection is corrected to the salad-dressing bottle before pickup.</p></figure></div><div class="comparison-controls"><button class="play-pair" type="button">▷ Play both from start</button><button class="pause-pair" type="button">Pause both</button><label class="speed-label">Speed <select aria-label="Playback speed for Select the salad dressing · seed 03" class="pair-speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><span>Each rollout retains its recorded duration.</span></div><p aria-live="polite" class="pair-status" role="status"></p></div><p class="mechanism-note">The demonstration provides an object-identity cue. In this run, the ordinary library grasp is retained after the selection is corrected.</p></article>
 
-  <main id="main-content">
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
-
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+<p class="caption">Videos retain their full duration and recorded playback rate. Outcomes use the simulator’s completed flag.</p>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
-
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
-  <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
-
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</main><footer class="wrap"><a class="wordmark" href="#">Demo<span>CaP</span></a><p>CoRL 2026 Late-Breaking Submission</p><p class="attribution">Adapted from the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a> and <a href="https://nerfies.github.io/">Nerfies</a> · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p></footer>
+</body></html>

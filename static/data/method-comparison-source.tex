@@ -1,0 +1,27 @@
+\begin{table*}[t]
+\centering
+\caption{Success rates (\%) on LIBERO and LIBERO-PRO. O, PS, and TC denote Original, Position Swap, and Task Change, respectively. Best results are bold.}
+\label{tab:method-comparison}
+\footnotesize
+\setlength{\tabcolsep}{2.8pt}
+\renewcommand{\arraystretch}{1.08}
+\begin{tabular}{@{}l*{12}{c}@{}}
+\toprule
+& \multicolumn{3}{c}{LIBERO-10} & \multicolumn{3}{c}{LIBERO-Object} & \multicolumn{3}{c}{LIBERO-Goal} & \multicolumn{3}{c}{LIBERO-Spatial} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-10}\cmidrule(lr){11-13}
+Method & O & PS & TC & O & PS & TC & O & PS & TC & O & PS & TC \\
+\midrule
+OpenVLA & 90 & 0 & 0 & 98 & 0\textsuperscript{$\dagger$} & 0\textsuperscript{$\dagger$} & 94 & 0\textsuperscript{$\dagger$} & 0\textsuperscript{$\dagger$} & 96 & 0\textsuperscript{$\dagger$} & 0\textsuperscript{$\dagger$} \\
+$\pi_0$ & 82 & 0 & 2 & 94 & 0\textsuperscript{$\dagger$} & 0\textsuperscript{$\dagger$} & \textbf{98} & 0\textsuperscript{$\dagger$} & 0\textsuperscript{$\dagger$} & 96 & 0\textsuperscript{$\dagger$} & 0\textsuperscript{$\dagger$} \\
+$\pi_{0.5}$ & \textbf{92} & 10 & 6 & \textbf{100} & 17\textsuperscript{$\dagger$} & 1\textsuperscript{$\dagger$} & 96 & 38\textsuperscript{$\dagger$} & 0\textsuperscript{$\dagger$} & \textbf{98} & 20\textsuperscript{$\dagger$} & 1\textsuperscript{$\dagger$} \\
+\addlinespace[1pt]
+CaP-X (Gemini 3.1 Pro) & 10 & 8 & 0 & 26 & 22\textsuperscript{$\dagger$} & 18\textsuperscript{$\dagger$} & 28 & 26\textsuperscript{$\dagger$} & 17\textsuperscript{$\dagger$} & 14 & 12\textsuperscript{$\dagger$} & 14\textsuperscript{$\dagger$} \\
+CaP-X (GPT-6) & 18 & 14 & 10 & 24 & 26 & 18 & 24 & 20 & 20 & 28 & 22 & 18 \\
+\addlinespace[1pt]
+CaP++ & 46 & 32 & \textbf{12} & 68 & 62 & 70 & 56 & 42 & 30 & 68 & 62 & 70 \\
+DemoCaP & 50 & \textbf{34} & 8 & 74 & \textbf{66} & \textbf{74} & 66 & \textbf{54} & \textbf{38} & 80 & \textbf{78} & \textbf{72} \\
+\bottomrule
+\end{tabular}
+\vspace{0.6mm}
+\parbox{\linewidth}{\scriptsize \textsuperscript{$\dagger$}Value reported by CaP-X~\cite{capx}. All results, taken from CaP-X or replicated in this work, use 50 trials per task.}
+\end{table*}
